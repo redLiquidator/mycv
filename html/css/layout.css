@@ -1,0 +1,277 @@
+/* 
+=============================================================================
+	Standard Style
+=============================================================================
+*/
+body{background:url(../images/header.jpg) repeat; font:12px Arial, Helvetica, sans-serif; color:#666666;}
+header{background:url(../images/lightblue_bg.jpg) repeat; height:165px; box-shadow:0 0 8px #333; border-top:5px  solid #e98c14; padding:25px 0 0 0; margin-bottom:20px; font:12px "BreeSerifRegular", "Trebuchet MS", Helvetica, sans-serif;}
+.name-wrap{background:url(../images/grey_sep.jpg) repeat-x bottom; padding:0 0 2px 0; margin-bottom:10px; text-align:right;}
+.name-wrap h1{font-size:36px;}
+.name-wrap h1 span{display:block; font-size:18px; color:#b9b9b9; text-transform:uppercase;}
+.contact-info{font-size: 11px; padding: 0px 0 8px; color: #114765; text-align:right; position:relative;}
+.phone-icon {background: url(../images/phone.png) no-repeat scroll left center transparent;  padding:0 15px;}
+.email-icon{background:url(../images/email.png) no-repeat center left; padding:0 0 0 15px;}
+/* ========= end =========== */
+
+
+/* 
+=============================================================================
+	Typography
+=============================================================================
+*/
+h1, h2, h3, h4, h5, h6, .tab a, blockquote{font-family:"BreeSerifRegular";}
+h2{background:url(../images/lightblue_bg.jpg) repeat; display:inline-block; padding:3px 8px 7px 8px; font-size:22px; margin-bottom:0; box-shadow:3px 0 0 #3b7da3; -webkit-box-shadow:3px 0 0 #3b7da3; -moz-box-shadow:3px 0 0 #3b7da3; -o-box-shadow:3px 0 0 #3b7da3;}
+h2 span{padding:0 0 8px 0; background:url(../images/blue_sep.jpg) repeat-x bottom;}
+h4 span{color:#e98c14; font-size:11px; font-style:italic;}
+/* ========= end =========== */
+
+/* 
+=============================================================================
+	Social Icons
+=============================================================================
+*/
+.social-icons{text-align:right; padding:0 25px 0 0; position:relative; z-index:9999;}
+.social-icons ul li{text-align:center; display:inline-block; padding:0 0 0 10px; line-height:30px;}
+.social-icons ul li a{width:27px; height:30px; background:url(../images/social_icons.png) no-repeat; text-indent:-9999px; display:block;}
+.social-icons ul li.twitter a{background-position:0 0;}
+.social-icons ul li.twitter a:hover{background-position:0 bottom;}
+.social-icons ul li.facebook a{background-position:-40px 0;}
+.social-icons ul li.facebook a:hover{background-position:-40px bottom;}
+.social-icons ul li.vimeo a{background-position:-80px 0;}
+.social-icons ul li.vimeo a:hover{background-position:-80px bottom;}
+.social-icons ul li.buzz a{background-position:-120px 0;}
+.social-icons ul li.buzz a:hover{background-position:-120px bottom;}
+.social-icons ul li.dribble a{background-position:-160px 0;}
+.social-icons ul li.dribble a:hover{background-position:-160px bottom;}
+/* ========= end =========== */
+
+
+/* 
+=============================================================================
+	Tabify Style
+=============================================================================
+*/
+.tab-container{position:relative; z-index:11111; width:960px; margin:0 auto; top:-39px;}
+.etabs { margin: 0; padding: 0; position:absolute; top:-75px; right:10px; }
+.tab { display: inline-block; zoom:1; *display:inline; padding:0 20px; }
+.tab a { font-size: 14px; display: block;  outline: none; color:#e98c14; text-transform:uppercase; text-decoration:none; padding:0 0 20px 0; background:url(../images/nav_arrow.png) no-repeat center 50px; -o-transition: all 0.3s; -moz-transition: all 0.3s; -webkit-transition: all 0.3s;}
+.tab a:hover { color:#114765;}
+.tab.active {  background:url(../images/tabs_arrow.png) no-repeat center bottom; -o-transition: all 0.3s; -moz-transition: all 0.3s; -webkit-transition: all 0.3s;}
+.tab a.active {background:url(../images/nav_arrow.png) no-repeat bottom center; -o-transition: all 0.3s; -moz-transition: all 0.3s; -webkit-transition: all 0.3s; color:#114765}
+.tab-container .panel-container {margin-top:15px;}
+.panel-container { margin-bottom: 10px; }
+/* ========= end =========== */
+
+
+/* 
+=============================================================================
+	Body Content
+=============================================================================
+*/
+.content-wrap{background:url(../images/lightblue_bg.jpg) repeat; box-shadow:0 3px 0 #3b7da3; -webkit-box-shadow:0 3px 0 #3b7da3; -moz-box-shadow:0 3px 0 #3b7da3; -o-box-shadow:0 3px 0 #3b7da3;}
+.content-pad{padding:10px; position:relative;}
+.shadow-wrap{background:url(../images/shadow_sep.png) no-repeat; min-height:239px; padding-left:15px;}
+/* ========= end =========== */
+
+
+/* 
+=============================================================================
+	Home Page
+=============================================================================
+*/
+.quote{font-size:16px; color:#2c77a1; background:url(../images/quote_bg.jpg) repeat-y; padding-left:15px; border:none;}
+ul.objective li{background:url(../images/arrow_left.png) no-repeat 0 7px; padding:0 0 0 15px;}
+.download-card {padding:20px 0 0 0;}
+.download-card a{padding:8px 15px 8px 42px; font-family:"BreeSerifRegular"; font-size:14px; color:#2a2a2a; text-shadow:0 1px 0 #eacf64; border-radius:100px; -webkit-border-radius:100px; -moz-border-radius:100px; -o-border-radius:100px; background:#F90 url(../images/vcard_btn.png) no-repeat 15px 12px; box-shadow:0 0 3px #838383; -moz-box-shadow:0 0 3px #838383; -webkit-box-shadow:0 0 3px #838383; -o-box-shadow:0 0 3px #838383; display:inline-block;}
+.download-card a:hover{color:#FFF; background:#2C77A1 url(../images/vcard_btn.png) no-repeat 15px 12px; text-shadow:0 1px 0 #439dcf;}
+/* ========= end =========== */
+
+
+/* 
+=============================================================================
+	Profile Page
+=============================================================================
+*/
+ul.my-skills li{background:url(../images/grey_sep.jpg) repeat-x bottom; padding-bottom:5px; margin-bottom:10px;}
+ul.my-skills li span{float:right; display:block; height:8px; width:9px; text-indent:-9999px; background:url(../images/skill_bg.jpg) no-repeat top right; padding:0 1px; position:relative; top:5px;}
+.list_carousel {width:100%;}
+.list_carousel ul {margin: 0; padding: 0; list-style: none; display: block;}
+.list_carousel li {width:100%; padding: 0; display: block; float: left;}
+.list_carousel.responsive {width: auto; margin-left: 0;}
+.prev {float: left; margin-left: 10px;}
+.next {float: right; margin-right: 10px;}
+.pager {text-align: center;}
+.pager a {margin: 0 3px; text-decoration: none; display:inline-block; background:#5095be; height:5px; width:14px; text-indent:-9999px;}
+.pager a.selected {background:#114765;}
+.timer {background-color: #999; height: 6px; width: 0px;}
+/* ========= end =========== */
+
+
+/* 
+=============================================================================
+	Portfolio Page
+=============================================================================
+*/
+#content {padding: 20px 0; position:relative;}
+.portfolio-filter {}
+ul#portfolio-filter {margin: 5px 0 10px 0; padding: 0; background: transparent url(../images/grey_sep.jpg) repeat-x bottom; text-align:center;}
+ul#portfolio-filter li {display: inline-block; padding:0;}
+ul#portfolio-filter a {padding:0 5px; font-family: 'BreeSerifRegular'; text-decoration: none; display:inline-block; font-size:14px;}
+ul#portfolio-filter a:hover, ul#portfolio-filter a.current {color: #888;}
+ul#portfolio-filter a.current {color:#666;}
+.portfolio-item {}
+ul#portfolio-list {margin:0 auto; padding: 0; list-style: none; width:99.2%;}
+ul#portfolio-list li {display: block; width:230px; float:left; background:url(../images/grey_sep.jpg) repeat-x bottom; padding:0 0 8px 0;}
+ul#portfolio-list li a {display: block; overflow: hidden;}
+.portfolio-item-preview {background: url(../images/bg-fade.png) no-repeat scroll center center transparent; display: block;}
+.home-portfolio {}
+.portfolio-box {padding:2%;}
+.portfolio-box h3{padding:8px 0 0 0;}
+.portfolio-box.last {margin-right:0;}
+.portfolio-shadow{position:relative; top:0;}
+/* ========= end =========== */
+
+
+/* 
+=============================================================================
+	Contact Page
+=============================================================================
+*/
+form#contact_form {}
+form#contact_form input[type="text"], form#contact_form textarea {color:#333333; background:#ffffff; border:1px solid #c4c4c4; padding:0 10px; font-size:11px; color:#888; padding:8px 5px;}
+form#contact_form input[type="text"]{width:97%;}
+form#contact_form textarea {width:97%; height:100px;}
+form#contact_form input[type="submit"] {border:none; font-size:12px; color:#ffffff; cursor:pointer; font-family: 'BreeSerifRegular'; padding:5px; background:url(../images/header.jpg) repeat;}
+form#contact_form input[type="submit"]:hover{color:#000;}
+form#contact_form .form-row{padding:0 0 2% 0; position:relative;} 
+form#contact_form .form-row.wdh100{width:101%;}
+form#contact_form label {float:left; cursor:default; margin-bottom:8px; font-size:11px;}
+form#contact_form label.error {color:#F00; font-size:11px; padding:6px 0 0 0; display:block; }
+form#newslatter_form label.error {color: #FF0000; display: inline-block; font-size: 11px; padding: 2px 0 0; position: absolute; right: 78px; top: 34px;}
+h4.form_thanks {color:#FFF; padding:5px; font-size:13px; display:block; text-align:center; background:#E98C14; text-transform:capitalize; text-shadow:0 1px 0 #333;}
+.get-back{position:relative; top:6px; left:5px; font-size:11px; color:#f0f0f0; font-style:italic;} 
+.required-field{ text-align:right; position:relative; top:14px; right:7px; font-size:11px; color:#f0f0f0; font-style:italic;}
+.contact-map{border:1px solid #ffffff; -webkit-box-shadow:  0px 3px 3px 1px rgba(93, 93, 93, 0.5); -moz-box-shadow:  0px 3px 3px 1px rgba(93, 93, 93, 0.5); box-shadow:  0px 3px 3px 1px rgba(93, 93, 93, 0.5);  background:#FFF; height:309px;}	
+.contact-txt{line-height:24px;}
+/* ========= end =========== */
+
+/* 
+=============================================================================
+	Footer Page
+=============================================================================
+*/
+footer{background:url(../images/lightblue_bg.jpg) repeat; box-shadow:0 0 3px #000; -moz-box-shadow:0 0 3px #000; -webkit-box-shadow:0 0 3px #000; -o-box-shadow:0 0 3px #000; padding:12px 0 0 0;}
+.bottom-line{background:#2c77a1; border-bottom:1px solid #5390b3; margin-top:12px;}
+.powered-by{text-align:right;}
+/* ========= end =========== */
+
+/* 
+=============================================================================
+	Back To Top
+=============================================================================
+*/
+#back-top {position: fixed; bottom: 0; right:10px; z-index:1000000000;}
+#back-top a {width: 32px; height: 30px; display: block; background:url(../images/top_arrow.png) no-repeat center center; -webkit-transition: 1s; -moz-transition: 1s; transition: 1s;}
+/* ========= end =========== */
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+/* 
+=============================================================================
+	Place iPad view CSS under here (Smaller than 959px)
+=============================================================================
+*/
+.test-class	{ margin:0; padding:0; background:red; }
+#photo img{width:100%;}
+header {height:auto;}
+.etabs{right:-15px; top:-56px;}
+.social-icons ul{margin-bottom:0;}
+.tab-container{position:relative; width:100%;}
+.head-inner{width:auto;}
+ul#portfolio-list li {width:244px;}
+.download-card a{padding:8px 15px 8px 35px;font-size:11px; background:#F90 url(../images/vcard_btn.png) no-repeat 12px 9px; }
+.download-card a:hover{color:#FFF; background:#2C77A1 url(../images/vcard_btn.png) no-repeat 12px 9px; text-shadow:0 1px 0 #439dcf;}
+/* ========= end =========== */
+
+
+} @media only screen and (min-width: 320px) and (max-width: 479px) {
+
+/* 
+=============================================================================
+	Place iPhone portrait view CSS under here (300px)
+=============================================================================
+*/
+.test-class	{ margin:0; padding:0; background:purple; }
+#photo, .name-wrap, .contact-info, .social-icons{text-align:center;}
+header {height:auto; height:380px;}
+.tab-container{position:relative; width:100%; top:0;}
+.etabs{width:100%; text-align:center; right:0; top:-115px;}
+.tab {padding:0 10px;}
+.etabs{top:-95px;}
+.tab-container .panel-container {margin-top:0;}
+.head-inner{width:auto;}
+.social-icons{padding:0;}
+.social-icons ul{margin-bottom:0;}
+.content-pad{padding:0 10px;}
+.shadow-wrap{min-height:inherit; background:none;}
+ul#portfolio-list li {width:100%;}
+.powered-by{text-align:left;}
+body{background:#F00;}
+/* ========= end =========== */
+
+}
+} @media only screen and (min-width: 239px) and (max-width: 479px) {
+
+/* 
+=============================================================================
+	Place iPhone portrait view CSS under here (300px)
+=============================================================================
+*/
+
+.test-class	{ margin:0; padding:0; background:yellow; }
+header {height:auto; border-color:yellow;}
+
+
+/* ========= end =========== */
+
+} @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+/* 
+=============================================================================
+	Place iPhone landscape view CSS under here (456px)
+=============================================================================
+*/
+.test-class { margin:0; padding:0; background:blue; }
+#photo, .name-wrap, .contact-info, .social-icons{text-align:center;}
+header {height:auto;  height:380px;}
+.tab-container{position:relative; width:100%;}
+.etabs{width:100%; text-align:center; right:0; top:-115px;}
+.tab-container{top:0;}
+.etabs{top:-95px;}
+.tab-container .panel-container {margin-top:0;}
+.head-inner{width:auto;}
+.social-icons{padding:0;}
+.social-icons ul{margin-bottom:0;}
+.content-pad{padding:0 10px;}
+.shadow-wrap{min-height:inherit; background:none;}
+ul#portfolio-list li {width:226px;}
+.powered-by{text-align:left;}
+
+/***** End *****/
+
+}
+/* ========= end =========== */
+
+/* 
+=============================================================================
+	Smartphones (portrait and landscape)
+=============================================================================
+*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+.test-class								{ margin:0; padding:0; background:orange; }
+
+}
+/* ========= end =========== */
